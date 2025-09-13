@@ -17,7 +17,7 @@ async def on_ready():
 @bot.command()
 async def spam(ctx, *, message):
     # Check if the command is run by the bot owner to prevent misuse
-    if ctx.author.id != YOUR_DISCORD_USER_ID:  # Replace with your Discord user ID
+    if ctx.author.id != 1203184708566130749:  # Replace with your Discord user ID
         await ctx.send("You are not authorized to use this command.")
         return
 
